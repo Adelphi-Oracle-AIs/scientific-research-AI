@@ -1,3 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Data files
+*.csv
+*.json
+*.txt
+*.xlsx
+*.h5
+
+# Model files
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Large files and datasets
+data/
+datasets/
+models/
+
+# Temporary files
+tmp/
+temp/
+
+# Configuration files containing sensitive information
+config.ini
+secrets.yaml
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.sql
+*.sqlite
+
+# Experiment tracking
+mlruns/
+runs/
+wandb/
+
+# TensorFlow specific
+events.out.tfevents.*
+
+# PyTorch specific
+lightning_logs/
+
+# Hugging Face specific
+.cache/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
